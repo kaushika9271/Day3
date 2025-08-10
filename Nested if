@@ -1,0 +1,22 @@
+package Day3;
+import java.util.Scanner;
+public class Nested if{
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int Age = sc.nextInt();
+		if (Age>=18) {
+			System.out.println("He is eligible for voting");
+			if(Age>=24) {
+				System.out.println("He is eligible for voting");
+			}
+			else {
+				System.out.println("He is not eligible for voting");
+			}
+		}
+		else {
+			System.out.println("He is not eligible for voting");
+		}
+	}
+
+}
