@@ -1,0 +1,20 @@
+package Day3;
+
+public class Conditional {
+	public static void main(String[] args) {
+		int num= 9;
+		if(num==9) {
+			System.out.println("The number is nine");
+		}
+		if(num <6) {
+			System.out.println("The num is > six");
+		}
+		if(num>10) {
+			System.out.println("The num is < ten ");
+		}
+		else {
+			System.out.println("nothing");
+		}
+	}
+
+}
