@@ -1,0 +1,27 @@
+package Day3;
+import java.util.Scanner;
+public class Nested if2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		if(num>=0 && num<=100) {
+			System.out.println("Valid");
+			if(num%2==0) {
+				System.out.println("YES" );
+				System.out.println(num/2 + " " + num/2);
+			}
+			else {
+				System.out.println("NO" );
+				
+			}
+		}
+		else {
+			System.out.println("Invlid");
+		}
+		
+	
+
+	}
+
+}
